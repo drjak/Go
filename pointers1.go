@@ -6,7 +6,11 @@ func one(xPtr *int){
 }
 
 func main(){
-	xPtr := new(int)
-	one(xPtr)
-	fmt.Println(*xPtr)
+	//new takes a type as an argument, allocates memory to fit a value and returns pointer
+	xPtr2 := new(int)
+	xPtr3 := new(int)
+	one(xPtr2)
+	one(xPtr3)
+	fmt.Println(*xPtr2)
+	fmt.Println(*xPtr3)
 }
