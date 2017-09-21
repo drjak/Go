@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9bd82f1e-6368-492f-9645-2a11d9d31b00" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/concurrency.go" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/concurrency1.go" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/channels.go" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/concurrency2.go" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -29,7 +29,7 @@
       <file leaf-file-name="shapes.go" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/shapes.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="666">
+            <state relative-caret-position="0">
               <caret line="43" column="24" lean-forward="false" selection-start-line="43" selection-start-column="24" selection-end-line="43" selection-end-column="24" />
               <folding>
                 <element signature="e#13#35#0" expanded="true" />
@@ -68,8 +68,8 @@
       <file leaf-file-name="interfaces.go" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/interfaces.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="252">
-              <caret line="14" column="12" lean-forward="false" selection-start-line="14" selection-start-column="12" selection-end-line="14" selection-end-column="12" />
+            <state relative-caret-position="198">
+              <caret line="11" column="15" lean-forward="true" selection-start-line="11" selection-start-column="15" selection-end-line="11" selection-end-column="15" />
               <folding>
                 <element signature="e#13#27#0" expanded="true" />
               </folding>
@@ -77,25 +77,25 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="concurrency.go" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/concurrency.go">
+      <file leaf-file-name="concurrency2.go" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/concurrency2.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="144">
-              <caret line="8" column="4" lean-forward="true" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="4" />
+            <state relative-caret-position="180">
+              <caret line="10" column="13" lean-forward="false" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
               <folding>
-                <element signature="e#13#25#0" expanded="true" />
+                <element signature="e#13#50#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="concurrency1.go" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/concurrency1.go">
+      <file leaf-file-name="channels.go" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/channels.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="162">
-              <caret line="9" column="16" lean-forward="false" selection-start-line="9" selection-start-column="16" selection-end-line="9" selection-end-column="16" />
+            <state relative-caret-position="247">
+              <caret line="19" column="24" lean-forward="false" selection-start-line="19" selection-start-column="24" selection-end-line="19" selection-end-column="24" />
               <folding>
-                <element signature="e#13#25#0" expanded="true" />
+                <element signature="e#13#38#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -136,8 +136,10 @@
         <option value="$PROJECT_DIR$/interfaces.go" />
         <option value="$PROJECT_DIR$/shapes.go" />
         <option value="$PROJECT_DIR$/methods.go" />
-        <option value="$PROJECT_DIR$/concurrency.go" />
         <option value="$PROJECT_DIR$/concurrency1.go" />
+        <option value="$PROJECT_DIR$/concurrency2.go" />
+        <option value="$PROJECT_DIR$/concurrency.go" />
+        <option value="$PROJECT_DIR$/channels.go" />
       </list>
     </option>
   </component>
@@ -180,8 +182,8 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="Scratches" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -190,6 +192,7 @@
     <property name="configurable.Project.GOPATH.is.expanded" value="true" />
     <property name="configurable.Module.GOPATH.is.expanded" value="true" />
     <property name="DefaultGoTemplateProperty" value="Go File" />
+    <property name="GO_FMT" value="false" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -203,7 +206,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Go Single File.go run concurrency1.go">
+  <component name="RunManager" selected="Go Single File.go run channels.go">
     <configuration default="true" type="GoApplicationRunConfiguration" factoryName="Go Application" activateToolWindowBeforeRun="false">
       <module name="test" />
       <working_directory value="$PROJECT_DIR$/" />
@@ -221,45 +224,45 @@
       <directory value="$PROJECT_DIR$" />
       <filePath value="$PROJECT_DIR$" />
     </configuration>
+    <configuration name="go run channels.go" type="GoRunFileConfiguration" factoryName="Go Single File" temporary="true">
+      <module name="test" />
+      <working_directory value="$PROJECT_DIR$/" />
+      <filePath value="$PROJECT_DIR$/channels.go" />
+    </configuration>
     <configuration name="go run concurrency1.go" type="GoRunFileConfiguration" factoryName="Go Single File" temporary="true">
       <module name="test" />
       <working_directory value="$PROJECT_DIR$/" />
       <filePath value="$PROJECT_DIR$/concurrency1.go" />
+    </configuration>
+    <configuration name="go run concurrency2.go" type="GoRunFileConfiguration" factoryName="Go Single File" temporary="true">
+      <module name="test" />
+      <working_directory value="$PROJECT_DIR$/" />
+      <filePath value="$PROJECT_DIR$/concurrency2.go" />
     </configuration>
     <configuration name="go run concurrency.go" type="GoRunFileConfiguration" factoryName="Go Single File" temporary="true">
       <module name="test" />
       <working_directory value="$PROJECT_DIR$/" />
       <filePath value="$PROJECT_DIR$/concurrency.go" />
     </configuration>
-    <configuration name="go run embedded_types.go" type="GoRunFileConfiguration" factoryName="Go Single File" temporary="true">
-      <module name="test" />
-      <working_directory value="$PROJECT_DIR$/" />
-      <filePath value="$PROJECT_DIR$/embedded_types.go" />
-    </configuration>
     <configuration name="go run interfaces.go" type="GoRunFileConfiguration" factoryName="Go Single File" temporary="true">
       <module name="test" />
       <working_directory value="$PROJECT_DIR$/" />
       <filePath value="$PROJECT_DIR$/interfaces.go" />
     </configuration>
-    <configuration name="go run methods.go" type="GoRunFileConfiguration" factoryName="Go Single File" temporary="true">
-      <module name="test" />
-      <working_directory value="$PROJECT_DIR$/" />
-      <filePath value="$PROJECT_DIR$/methods.go" />
-    </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Go Single File.go run methods.go" />
-      <item index="1" class="java.lang.String" itemvalue="Go Single File.go run embedded_types.go" />
-      <item index="2" class="java.lang.String" itemvalue="Go Single File.go run interfaces.go" />
-      <item index="3" class="java.lang.String" itemvalue="Go Single File.go run concurrency.go" />
-      <item index="4" class="java.lang.String" itemvalue="Go Single File.go run concurrency1.go" />
+      <item index="0" class="java.lang.String" itemvalue="Go Single File.go run interfaces.go" />
+      <item index="1" class="java.lang.String" itemvalue="Go Single File.go run concurrency.go" />
+      <item index="2" class="java.lang.String" itemvalue="Go Single File.go run concurrency1.go" />
+      <item index="3" class="java.lang.String" itemvalue="Go Single File.go run concurrency2.go" />
+      <item index="4" class="java.lang.String" itemvalue="Go Single File.go run channels.go" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Go Single File.go run concurrency1.go" />
-        <item index="1" class="java.lang.String" itemvalue="Go Single File.go run concurrency.go" />
-        <item index="2" class="java.lang.String" itemvalue="Go Single File.go run interfaces.go" />
-        <item index="3" class="java.lang.String" itemvalue="Go Single File.go run methods.go" />
-        <item index="4" class="java.lang.String" itemvalue="Go Single File.go run embedded_types.go" />
+        <item index="0" class="java.lang.String" itemvalue="Go Single File.go run channels.go" />
+        <item index="1" class="java.lang.String" itemvalue="Go Single File.go run concurrency2.go" />
+        <item index="2" class="java.lang.String" itemvalue="Go Single File.go run concurrency1.go" />
+        <item index="3" class="java.lang.String" itemvalue="Go Single File.go run interfaces.go" />
+        <item index="4" class="java.lang.String" itemvalue="Go Single File.go run concurrency.go" />
       </list>
     </recent_temporary>
   </component>
@@ -278,18 +281,19 @@
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="65" y="24" width="1303" height="780" extended-state="6" />
+    <frame x="65" y="24" width="1327" height="772" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.082071714" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.0835285" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32868218" sideWeight="0.50278884" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32988048" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19440125" sideWeight="0.49721116" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19440125" sideWeight="0.49721116" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20876494" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20843092" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -305,13 +309,90 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="concurency" />
+    <option name="LAST_COMMIT_MESSAGE" value="concurency" />
+  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="4" />
+      <option name="time" value="5" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/shapes.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="666">
+          <caret line="43" column="24" lean-forward="false" selection-start-line="43" selection-start-column="24" selection-end-line="43" selection-end-column="24" />
+          <folding>
+            <element signature="e#13#35#0" expanded="true" />
+            <element signature="e#49#76#0" expanded="false" />
+            <element signature="n#!!block;n#circleArea#0" expanded="false" />
+            <element signature="n#!!block;n#circleArea1#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/methods.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="22" column="27" lean-forward="false" selection-start-line="22" selection-start-column="27" selection-end-line="22" selection-end-column="27" />
+          <folding>
+            <element signature="e#56#87#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/embedded_types.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="414">
+          <caret line="23" column="6" lean-forward="false" selection-start-line="23" selection-start-column="6" selection-end-line="23" selection-end-column="6" />
+          <folding>
+            <element signature="e#14#28#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/interfaces.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="14" column="12" lean-forward="false" selection-start-line="14" selection-start-column="12" selection-end-line="14" selection-end-column="12" />
+          <folding>
+            <element signature="e#13#27#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/concurrency.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="8" column="4" lean-forward="true" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="4" />
+          <folding>
+            <element signature="e#13#25#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/concurrency1.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="9" column="16" lean-forward="false" selection-start-line="9" selection-start-column="16" selection-end-line="9" selection-end-column="16" />
+          <folding>
+            <element signature="e#13#25#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/concurrency2.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="10" column="13" lean-forward="false" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+          <folding>
+            <element signature="e#13#50#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/shapes.go">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="666">
@@ -588,23 +669,13 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/shapes.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="666">
+        <state relative-caret-position="0">
           <caret line="43" column="24" lean-forward="false" selection-start-line="43" selection-start-column="24" selection-end-line="43" selection-end-column="24" />
           <folding>
             <element signature="e#13#35#0" expanded="true" />
             <element signature="e#49#76#0" expanded="false" />
             <element signature="n#!!block;n#circleArea#0" expanded="false" />
             <element signature="n#!!block;n#circleArea1#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/embedded_types.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="414">
-          <caret line="23" column="6" lean-forward="false" selection-start-line="23" selection-start-column="6" selection-end-line="23" selection-end-column="6" />
-          <folding>
-            <element signature="e#14#28#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -619,32 +690,62 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/interfaces.go">
+    <entry file="file://$PROJECT_DIR$/concurrency.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="14" column="12" lean-forward="false" selection-start-line="14" selection-start-column="12" selection-end-line="14" selection-end-column="12" />
+        <state relative-caret-position="216">
+          <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
           <folding>
-            <element signature="e#13#27#0" expanded="true" />
+            <element signature="e#13#25#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/concurrency.go">
+    <entry file="file://$PROJECT_DIR$/embedded_types.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="8" column="4" lean-forward="true" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="4" />
+        <state relative-caret-position="414">
+          <caret line="23" column="6" lean-forward="false" selection-start-line="23" selection-start-column="6" selection-end-line="23" selection-end-column="6" />
           <folding>
-            <element signature="e#13#25#0" expanded="true" />
+            <element signature="e#14#28#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/concurrency1.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="9" column="16" lean-forward="false" selection-start-line="9" selection-start-column="16" selection-end-line="9" selection-end-column="16" />
+        <state relative-caret-position="54">
+          <caret line="3" column="7" lean-forward="true" selection-start-line="3" selection-start-column="7" selection-end-line="3" selection-end-column="8" />
           <folding>
             <element signature="e#13#25#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/interfaces.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="11" column="15" lean-forward="true" selection-start-line="11" selection-start-column="15" selection-end-line="11" selection-end-column="15" />
+          <folding>
+            <element signature="e#13#27#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/concurrency2.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="10" column="13" lean-forward="false" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+          <folding>
+            <element signature="e#13#50#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/channels.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="19" column="24" lean-forward="false" selection-start-line="19" selection-start-column="24" selection-end-line="19" selection-end-column="24" />
+          <folding>
+            <element signature="e#13#38#0" expanded="true" />
           </folding>
         </state>
       </provider>
