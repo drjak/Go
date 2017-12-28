@@ -32,6 +32,7 @@ func ReadInput()[]float64{
 	}
 	return slice
 }
+
 func Sum(xs []float64)float64{
 	sum := float64(0)
 	for _, x := range xs{
