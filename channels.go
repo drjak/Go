@@ -4,7 +4,7 @@ import (
 	"time"
 )
 func pinger(c chan string){
-	for i:=0;;i++{
+	for true{
 		c <- "ping"
 	}
 }
@@ -14,7 +14,7 @@ func counter(d chan int){
 	}
 }
 func ponger(c chan string){
-	for i:=0;;i++{
+	for true{
 		c <- "pong"
 	}
 }
